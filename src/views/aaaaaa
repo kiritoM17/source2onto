@@ -1,0 +1,13 @@
+       <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            <%= projects[index].desc_project %>
+                        </a>
+                        <div class="dropdown-menu">
+                            <ul>
+                                <li><a class="collapse-item btn btn-success">Model</a></li>
+                                <li> <a class="collapse-item btn btn-warning" onclick="loadProject('<%=projects[index].id%>')">Extraction</a></li>
+                            </ul>
+
+
+                        </div>
+                    </li>
